@@ -1,0 +1,122 @@
+/** My Projects screen **/
+#projects-screen {
+    position: relative;
+    text-align: center;
+}
+#desk-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 42%;
+    background-position: bottom;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-image: url(../img/wooddesk.png);
+}
+#monitor-screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 15px 16px 143px 16px;
+    z-index: 10;
+    background-color: white; 
+    overflow: hidden;
+}
+#monitor-wrapper {
+    position: relative;
+    margin: 6px auto 0 auto;
+    display: inline-block;
+}
+#monitor-img {
+    position: relative;
+    z-index: 20;
+    height:70%;
+}
+
+
+
+
+/** Monitor screens **/
+#project-screens-wrapper {
+    position: relative;
+    height: 100%;
+    width: 1000%;
+    overflow: hidden;
+    border: 5px #34af88;
+    background-color: #334477;
+}
+
+.project-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 10%;
+    border: 1px aqua solid;
+    background-color: #666;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#nutrak-page {
+    background-color: tomato;
+    left: 10%;
+}
+#letsplay-page {
+    background-color: antiquewhite;
+    left: 20%;
+}
+#fishy-page {
+    background-color:darkkhaki;
+    left: 30%;
+}
+#tasktime-page {
+    background-color:brown;
+    left: 40%;
+}
+#phaser-page {
+    background-color:forestgreen;
+    left: 50%;
+}
+#libra-page {
+    background-color: chocolate;
+    left: 60%;
+}
+
+
+.proj-icon {
+    margin-bottom: 2px;
+}
+#project-icons {
+    position: absolute;
+    bottom: 18%;
+    width: 100%;
+    text-align: center;
+}
+.proj-icon-wrap {
+    margin: 8px;
+    padding: 2px;
+    background-color: #000;
+    color: #fff;
+    border: 2px #fff solid;
+    display: inline-block;
+    width: 10%;
+    -webkit-box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.67);
+-moz-box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.67);
+box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.67);
+}
+
+.proj-icon-wrap:hover {
+    padding-top: 5px;
+    -webkit-box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.9);
+-moz-box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.9);
+box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.9);
+}
+
+
+/** screen classes to display different project pages **/
+
+
