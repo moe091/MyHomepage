@@ -1,0 +1,139 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #000;
+    scroll-behavior: smooth;
+}
+
+.fullpage-div {
+    min-height: 100%; 
+    min-width: 99%;
+    border: 1px black solid;
+    background-color: #dfdffd;
+}
+
+.reddiv {
+    background-color: #000;
+}
+
+
+
+/** ID's for main/home screen **/
+#homescreen-div {
+    background-image: url('../img/home_bg.png');
+    background-repeat: no-repeat;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#name-logo {
+    margin: 50px 0;
+    text-align: center;
+}
+#logo-img {
+    width: 30%; /** MQ: for large screens. higher width % for smaller screens **/
+    height: auto;
+    margin: 0 auto;
+}
+#nav-div {
+    position: absolute;
+    bottom: 12%;
+    left: 15%;
+    width: 70%;
+    padding: 3px 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+
+#nav-div a {
+    color: #566456;
+    text-decoration: none;
+    margin: 0 5%;
+}
+
+#center-spotlight { 
+    overflow: none;
+}
+
+.spotlight {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px black solid;
+    width: 28%;
+    min-height: 45%;
+    margin: 1% 7%;
+    color: #667266;
+}
+#spotlight-right {
+    float: right;
+    margin-right: 14%;
+}
+#spotlight-left {
+    float: left;
+    margin-left: 14%;
+}
+.spotlight-header {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 6px;
+    font-weight: bold;
+}
+.spotlight-img {
+    width: 68%;
+    margin: 2px 14%;
+    height: auto;
+    border: 1px #888 solid;
+}
+.spotlight-img:hover {
+    border: 1px #bbb solid;
+}
+.spotlight-details {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 8px;
+}
+
+#nav-div a:hover {
+    text-decoration: underline;
+}
+
+
+/** My Projects screen **/
+#projects-screen {
+    position: relative;
+    text-align: center;
+}
+#desk-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 42%;
+    background-position: bottom;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-image: url(../img/wooddesk.png);
+}
+#monitor-screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 19px 18px 183px 18px;
+    z-index: 10;
+    background-color: white;
+    padding: 5px;
+}
+#monitor-wrapper {
+    position: relative;
+    margin: 12px auto 0 auto;
+    display: inline-block;
+}
+#monitor-img {
+    position: relative;
+    z-index: 20;
+}
+
+
