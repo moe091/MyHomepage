@@ -12,6 +12,8 @@ var showProjectPage = function(proj) {
     if (projWrapper) {
         projWrapper.style.left = (proj * -100) + "%";
     }
+    document.getElementById('projects-screen').style.backgroundImage = 'url(../img/merkle_bg.png)';
+    //document.getElementById('projects-screen').style.backgroundColor = '#880000';
 }
 
 document.onRe

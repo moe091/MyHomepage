@@ -2,6 +2,8 @@
 #projects-screen {
     position: relative;
     text-align: center;
+    background-size: cover;
+    background-image: url('../img/projects_bg.png');
 }
 #desk-wrapper {
     position: absolute;
@@ -33,7 +35,8 @@
 #monitor-img {
     position: relative;
     z-index: 20;
-    height:70%;
+    height: 556px;
+    width: 733px;
 }
 
 
@@ -58,9 +61,19 @@
     border: 1px aqua solid;
     background-color: #666;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
+.project-page h2 {
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+#merkle-page {
+    background-color: #152933;
+    left: 0;
+}
 #nutrak-page {
     background-color: tomato;
     left: 10%;
@@ -89,28 +102,29 @@
 
 .proj-icon {
     margin-bottom: 2px;
+    width: 100%;
 }
 #project-icons {
     position: absolute;
-    bottom: 18%;
+    bottom: 10%;
     width: 100%;
     text-align: center;
 }
 .proj-icon-wrap {
-    margin: 8px;
+    font-size: 0.85em;
+    margin: 1%;
     padding: 2px;
     background-color: #000;
     color: #fff;
     border: 2px #fff solid;
     display: inline-block;
-    width: 10%;
+    width: 11%;
     -webkit-box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.67);
 -moz-box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.67);
 box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.67);
 }
 
 .proj-icon-wrap:hover {
-    padding-top: 5px;
     -webkit-box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.9);
 -moz-box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.9);
 box-shadow: 6px 3px 8px 6px rgba(0,0,0,0.9);

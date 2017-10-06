@@ -10,6 +10,11 @@ function scrollTo(to, duration) {
     start = window.pageYOffset;
     scrollInterval = setInterval(function(){
         if (document.body.scrollTop != to) {
+            console.log('count', count);
+            console.log('curpos', currPos);
+            console.log('start', start);
+            console.log('to', to);
+            console.log('diff', diff);
             count = count + 1;
             currPos = start + diff * (0.5 - 0.5 * Math.cos(count * scrollStep));
             document.body.scrollTop = currPos;
